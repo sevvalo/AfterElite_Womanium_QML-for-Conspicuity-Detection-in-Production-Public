@@ -20,20 +20,44 @@ This project explores the application of quantum machine learning techniques, sp
 
 In our solution, after completing the required PennyLane Codebooks, we continued with Task 2. In this task, quantum variational classifier is implemented. 
 The process includes:
-
-    Device Setup: Using the default.qubit device in PennyLane.
-    Quantum Circuit Design: The circuit consists of a series of rotation gates applied to qubits, followed by CNOT gates for entanglement.
-    State Preparation: Inputs are encoded into the quantum circuit using basis states.
-    Training: The classifier is trained using the NesterovMomentumOptimizer over 100 epochs. The performance is evaluated using accuracy and mean square error loss metrics.
-    Evaluation: After training, the model is tested on a validation dataset, showing promising results in classifying parity data.
+*Device Setup: Using the default.qubit device in PennyLane.
+*Quantum Circuit Design: The circuit consists of a series of rotation gates applied to qubits, followed by CNOT gates for entanglement.
+*State Preparation: Inputs are encoded into the quantum circuit using basis states.
+*Training: The classifier is trained using the NesterovMomentumOptimizer over 100 epochs. The performance is evaluated using accuracy and mean square error loss metrics.
+*Evaluation: After training, the model is tested on a validation dataset, showing promising results in classifying parity data.
 
 
 The third task explores quantum convolutional neural networks (QCNN) through a Quanvolutional Neural Network model:
+*Data Preparation: The MNIST dataset is normalized and downsized for computational feasibility.
+*Quantum Circuit Design: A quantum circuit encodes the input images and applies random layers to process the data.
+*Quanvolutional Layer: This layer applies quantum operations in a sliding window manner over the input images, effectively simulating the function of classical convolutional layers.
+*Integration with Classical Neural Networks: The outputs from the quanvolutional layer are fed into a classical neural network for final classification.
 
-    Data Preparation: The MNIST dataset is normalized and downsized for computational feasibility.
-    Quantum Circuit Design: A quantum circuit encodes the input images and applies random layers to process the data.
-    Quanvolutional Layer: This layer applies quantum operations in a sliding window manner over the input images, effectively simulating the function of classical convolutional layers.
-    Integration with Classical Neural Networks: The outputs from the quanvolutional layer are fed into a classical neural network for final classification.
+At the forth task, we have followed the following approach to model and predict the sine function:
+*Dataset Creation: This section has also three subparts, generation of a datasetof sine function values over [0,2π], ploting the original data for reference, and splitting the dataset into training and test sets.
+*Quantum Circuit Definition: To encode input data amplitude embedding is applied and a quantum circuit is defined with parameterized rotations and entangling gates.
+*Model Training: Nesterov Momentum optimizer is used to train the quantum model.
+
+The fifth task 
+
+Task 5: Classical and Quantum Layer Integration
+
+Objective: Develop and compare a classical neural network and a hybrid quantum-classical model.
+
+    Classical Neural Network:
+        Data Preparation: Loaded and processed image data using TensorFlow.
+        Model Definition: Created and trained a classical neural network.
+
+
+
+Hybrid Quantum-Classical Model:
+
+    Quantum Layer: Implemented a custom TensorFlow layer that integrates quantum computations.
+    Model Definition: Combined the classical neural network with the quantum layer and trained the hybrid model.
+
+
+
+This project involved developing a quantum machine learning model to predict the sine function, comparing it with a classical neural network, and integrating a quantum layer into a classical model to explore hybrid approaches.
 
 Outcomes and Conclusion
 
