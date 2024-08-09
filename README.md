@@ -7,7 +7,7 @@ Team Member 1:
 Team Member 2:
 
 * Full Name: Şevval ÖZDEMİR
-* Womanium Program Enrollment ID: WQ24-jEy2lgI4HZ4PiG8:
+* Womanium Program Enrollment ID: WQ24-jEy2lgI4HZ4PiG8
 ## Project Description: Quantum Machine Learning for Conspicuity Detection in Production
 
 This project is focused on enhancing conspicuity detection in production environments, aiming to identify improvement opportunities in work processes. By analyzing process data, such as images or time series, the project seeks to uncover deviations and weak points in production that can be optimized. Traditional methods for analyzing such data are time-consuming, so this project explores the potential of hybrid quantum computing to accelerate this process.
