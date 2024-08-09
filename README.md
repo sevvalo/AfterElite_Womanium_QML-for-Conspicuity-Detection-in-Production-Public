@@ -38,27 +38,10 @@ At the forth task, we have followed the following approach to model and predict 
 *Quantum Circuit Definition: To encode input data amplitude embedding is applied and a quantum circuit is defined with parameterized rotations and entangling gates.
 *Model Training: Nesterov Momentum optimizer is used to train the quantum model.
 
-The fifth task 
-
-Task 5: Classical and Quantum Layer Integration
-
-Objective: Develop and compare a classical neural network and a hybrid quantum-classical model.
-
-    Classical Neural Network:
-        Data Preparation: Loaded and processed image data using TensorFlow.
-        Model Definition: Created and trained a classical neural network.
+The fifth task asks us to do the task 4 with real-world data and compare a classical neural network and a hybrid quantum-classical model. The task has two sub-parts so we first build the CNN and then Hybrid Quantum-Classical model.
 
 
 
-Hybrid Quantum-Classical Model:
+### Conclusion
 
-    Quantum Layer: Implemented a custom TensorFlow layer that integrates quantum computations.
-    Model Definition: Combined the classical neural network with the quantum layer and trained the hybrid model.
-
-
-
-This project involved developing a quantum machine learning model to predict the sine function, comparing it with a classical neural network, and integrating a quantum layer into a classical model to explore hybrid approaches.
-
-Outcomes and Conclusion
-
-The project demonstrates the potential of quantum machine learning in enhancing conspicuity detection models in production environments. The quantum variational classifier and the Quanvolutional Neural Network both exhibit promising results, indicating that quantum machine learning could offer advantages in tasks requiring high precision and novel data processing techniques. However, further exploration is needed to fully understand the scalability and practical implementation of these quantum models in real-world production systems.
+The project demonstrates the potential of quantum machine learning in enhancing conspicuity detection models in production environments. The quantum variational classifier and the Quanvolutional Neural Network both exhibit promising results, indicating that quantum machine learning could offer advantages in tasks requiring high precision and novel data processing techniques. However, further exploration is needed to fully understand the scalability and practical implementation of these quantum models in real-world production systems. 
